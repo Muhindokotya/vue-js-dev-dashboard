@@ -1,5 +1,20 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import "./Styles/App.css"
+// Import the main function to create the Vue application
+import { createApp } from 'vue';
+// Import the main App component
+import App from './App.vue';
+// Import the Vue application router
+import router from "./router/index.js";
+// import router from "./router";
+// import the CSS styles
+import "./styles/App.css";
 
-createApp(App).mount('#app')
+/* 
+* Create the Vue application inside the HTML element
+* with the id 'app' and use the Vue.js router
+*/
+
+// createApp(App).use(router).mount('#app')
+
+createApp(App)
+    .use(router)
+    .mount('#app');
