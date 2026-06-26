@@ -1,22 +1,23 @@
 <template>
-    <nav class="navbar">
+  <nav class="navbar">
 
-        <h2>Vue Dahboard</h2>
+    <h2>Vue Dashboard</h2>
 
-        <div>
+    <div>
 
-            <RouterLink
-            to="/"
-            >
-            Dashboard
-        </RouterLink>
+      <RouterLink to="/">
+        Dashboard
+      </RouterLink>
 
-        <RouterLink
-        to="/projects"
-        >
-        projects
-    </RouterLink>
-        </div>
+      <RouterLink to="/projects">
+        Projects
+      </RouterLink>
 
-    </nav>
- </template>
+      <RouterLink to="/skills">
+        Skills
+      </RouterLink>
+
+    </div>
+
+  </nav>
+</template>
